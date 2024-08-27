@@ -1,17 +1,152 @@
 [
   {
     "type": "phone",
-    "model": "samsungs24ultra",
-    "name": "Samsung S24 Ultra",
+    "model": "galaxys24ultra",
+    "name": "Samsung Galaxy S24 Ultra",
     "realPrice": "144999",
-    "desc": "Meet Galaxy S24 Ultra, the ultimate form of Galaxy Ultra with a new titanium exterior and a 17.25cm (6.8\") flat display. It's an absolute marvel of design.\nThe legacy of Galaxy Note is alive and well. Write, tap and navigate with precision your fingers wish they had on the new, flat display.\nWith the most megapixels on a smartphone and AI processing, Galaxy S24 Ultra sets the industry standard for image quality every time you hit the shutter. What's more, the new ProVisual engine recognizes objects — improving colour tone, reducing noise and bringing out detail.\nA new way to search is here with Circle to Search. While scrolling your fav social network, use your S Pen or finger to circle something and get Google Search results.\nVictory can be yours with the new Snapdragon 8 Gen 3 for Galaxy. Faster processing gives you the power you need for all the gameplay you want. Then, manifest graphic effects in real time with ray tracing for hyper-realistic shadows and reflections.",
+    "desc": "Meet Galaxy S24 Ultra, the ultimate form of Galaxy Ultra with a new titanium exterior and a 17.25cm (6.8\") flat display...",
     "rating": {
       "name": "Customers say",
       "rating": 4.5,
-      "review": "Customers like the features and quality of the cellular phone. For example, they say it has an excellent AI interface and is better than the iPhone in every aspect. Customers appreciate the display. That said, some complain about the picture quality. Opinions are mixed on the camera, performance, sound quality, and battery."
+      "review": "Customers like the features and quality of the cellular phone..."
     },
     "images": [
       "https://m.media-amazon.com/images/I/81vxWpPpgNL._SX679_.jpg"
+    ]
+  },
+  {
+    "type": "phone",
+    "model": "galaxys24plus",
+    "name": "Samsung Galaxy S24 Plus",
+    "realPrice": "129999",
+    "desc": "Samsung Galaxy S24 Plus comes with advanced features and a sleek design...",
+    "rating": {
+      "name": "Experts say",
+      "rating": 4.6,
+      "review": "The S24 Plus is known for its premium performance and display quality..."
+    },
+    "images": [
+      "https://m.media-amazon.com/images/I/81vxWpPpgNL._SX679_.jpg"
+    ]
+  },
+  {
+    "type": "phone",
+    "model": "galaxys23ultra",
+    "name": "Samsung Galaxy S23 Ultra",
+    "realPrice": "139999",
+    "desc": "Samsung Galaxy S23 Ultra offers cutting-edge performance and camera technology...",
+    "rating": {
+      "name": "Tech reviewers",
+      "rating": 4.7,
+      "review": "The S23 Ultra is praised for its powerful camera and smooth performance..."
+    },
+    "images": [
+      "https://m.media-amazon.com/images/I/71t4g4YKUwL._SX679_.jpg"
+    ]
+  },
+  {
+    "type": "phone",
+    "model": "galaxys23plus",
+    "name": "Samsung Galaxy S23 Plus",
+    "realPrice": "119999",
+    "desc": "Samsung Galaxy S23 Plus combines high-end features with a compact design...",
+    "rating": {
+      "name": "User feedback",
+      "rating": 4.6,
+      "review": "Users love the display and battery life of the S23 Plus..."
+    },
+    "images": [
+      "https://m.media-amazon.com/images/I/71bK7uAApQL._SX679_.jpg"
+    ]
+  },
+  {
+    "type": "phone",
+    "model": "galaxys22",
+    "name": "Samsung Galaxy S22",
+    "realPrice": "99999",
+    "desc": "Samsung Galaxy S22 offers a balance of performance and value...",
+    "rating": {
+      "name": "User reviews",
+      "rating": 4.4,
+      "review": "The S22 is appreciated for its sleek design and reliable performance..."
+    },
+    "images": [
+      "https://m.media-amazon.com/images/I/71JSM4YITjL._SX679_.jpg"
+    ]
+  },
+  {
+    "type": "phone",
+    "model": "galaxyzfold5",
+    "name": "Samsung Galaxy Z Fold 5",
+    "realPrice": "199999",
+    "desc": "Samsung Galaxy Z Fold 5 represents the pinnacle of foldable technology...",
+    "rating": {
+      "name": "Tech experts",
+      "rating": 4.8,
+      "review": "The Z Fold 5 is an innovation in smartphone design, offering versatility like no other..."
+    },
+    "images": [
+      "https://m.media-amazon.com/images/I/61BceMOmCwL._SX679_.jpg"
+    ]
+  },
+  {
+    "type": "phone",
+    "model": "galaxyzfold4",
+    "name": "Samsung Galaxy Z Fold 4",
+    "realPrice": "189999",
+    "desc": "The Galaxy Z Fold 4 continues Samsung's legacy of foldable smartphones...",
+    "rating": {
+      "name": "Customer review",
+      "rating": 4.7,
+      "review": "The Z Fold 4 is praised for its unique form factor and multitasking capabilities..."
+    },
+    "images": [
+      "https://m.media-amazon.com/images/I/71cGTBiS7DL._SX679_.jpg"
+    ]
+  },
+  {
+    "type": "phone",
+    "model": "galaxyzfold3",
+    "name": "Samsung Galaxy Z Fold 3",
+    "realPrice": "179999",
+    "desc": "Samsung Galaxy Z Fold 3 is designed for those who want cutting-edge technology...",
+    "rating": {
+      "name": "User feedback",
+      "rating": 4.6,
+      "review": "The Z Fold 3 is known for its durability and innovative features..."
+    },
+    "images": [
+      "https://m.media-amazon.com/images/I/71fFl8PlS4L._SX679_.jpg"
+    ]
+  },
+  {
+    "type": "phone",
+    "model": "galaxys21ultra",
+    "name": "Samsung Galaxy S21 Ultra",
+    "realPrice": "134999",
+    "desc": "Samsung Galaxy S21 Ultra offers premium features with a stunning display...",
+    "rating": {
+      "name": "Tech reviewers",
+      "rating": 4.6,
+      "review": "The S21 Ultra is appreciated for its superior camera and fast performance..."
+    },
+    "images": [
+      "https://m.media-amazon.com/images/I/81B9JvIHfgL._SX679_.jpg"
+    ]
+  },
+  {
+    "type": "phone",
+    "model": "galaxys21plus",
+    "name": "Samsung Galaxy S21 Plus",
+    "realPrice": "119999",
+    "desc": "The Galaxy S21 Plus offers a great mix of high-end features in a slightly smaller form...",
+    "rating": {
+      "name": "User feedback",
+      "rating": 4.5,
+      "review": "Users enjoy the design and performance of the S21 Plus..."
+    },
+    "images": [
+      "https://m.media-amazon.com/images/I/81B9JvIHfgL._SX679_.jpg"
     ]
   }
 ]
