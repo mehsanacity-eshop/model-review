@@ -58,9 +58,9 @@
                 <label for="desc" class="form-label">Long Description</label>
                 <textarea class="form-control" id="desc" rows="5" placeholder="Enter Long description"></textarea>
             </div>
-            <div class="mb-3">
-                <label for="cdesc" class="form-label">Iframe (URL) Description</label>
-                <input type="checkbox" class="form-control" id="cdesc" onclick="myIframe()" placeholder="Enter URL">
+            <div class="mb-3 form-check">
+                <label for="cdesc" class="form-check-label">Iframe (URL) Description</label>
+                <input type="checkbox" class="form-check-input" id="cdesc" onclick="myIframe()" placeholder="Enter URL">
             </div>
             <div id="ratingContainer">
                 <!-- Rating fields will be dynamically added here -->
@@ -90,7 +90,7 @@
   if (checkBox.checked == true){
     text.value = `{iframe:${text.value}}`;
   } else {
-    text.value = "";
+    text.value = text.value.replace("{iframe:", "").replace("}", "");
   }
 }
         let ratingCount = 0;
