@@ -4,7 +4,53 @@
   "model": "samsunggalaxys24ultra256gb",
   "name": "Samsung Galaxy S24 Ultra",
   "realPrice": "139999",
-  "sdesc": "Samsung Galaxy S24 Ultra 5G AI Smartphone (Titanium Gray, 12GB, 256GB Storage)",
+  "sdesc": "Samsung Galaxy S24 Ultra 5G AI Smartphone (12GB, 256GB Storage)",
+  "desc": "{iframe:https://www.gsmarena.com/samsung_galaxy_s24_ultra-12771.php}",
+  "rating": [
+    {
+      "name": "Gobal Review",
+      "star": 4.5,
+      "review": "Rating And Review Are Consider for Google maybe its not close to actual product"
+    }
+  ],
+  "images": [
+    "https://images.samsung.com/is/image/samsung/assets/in/smartphones/galaxy-s24-ultra/buy/S24Ultra-Color-Titanium_Grey_PC_0527_final.jpg?imbypass=true",
+    "https://images.samsung.com/is/image/samsung/assets/in/smartphones/galaxy-s24-ultra/buy/S24Ultra-Color-Titanium_Black_PC_0527_final.jpg?imbypass=true",
+    "https://images.samsung.com/is/image/samsung/assets/in/smartphones/galaxy-s24-ultra/buy/S24Ultra-Color-Titanium_Violet_PC_0527_final.jpg?imbypass=true",
+    "https://images.samsung.com/is/image/samsung/assets/in/smartphones/galaxy-s24-ultra/buy/desk.png?imbypass=true",
+    "https://images.samsung.com/is/image/samsung/assets/in/smartphones/galaxy-s24-ultra/buy/S24Ultra-Color-Titanium_Orange_PC_0527_final.jpg?imbypass=true",
+    "https://images.samsung.com/is/image/samsung/assets/in/smartphones/galaxy-s24-ultra/buy/S24Ultra-Color-Titanium_Green_PC_0527_final.jpg?imbypass=true",
+    "https://images.samsung.com/is/image/samsung/assets/in/smartphones/galaxy-s24-ultra/buy/S24Ultra-Color-Titanium_Blue_PC_0527_final.jpg?imbypass=true"
+  ]
+}, {
+  "type": "phone",
+  "model": "samsunggalaxys24ultra512gb",
+  "name": "Samsung Galaxy S24 Ultra",
+  "realPrice": "139999",
+  "sdesc": "Samsung Galaxy S24 Ultra 5G AI Smartphone (12GB, 512GB Storage)",
+  "desc": "{iframe:https://www.gsmarena.com/samsung_galaxy_s24_ultra-12771.php}",
+  "rating": [
+    {
+      "name": "Gobal Review",
+      "star": 4.5,
+      "review": "Rating And Review Are Consider for Google maybe its not close to actual product"
+    }
+  ],
+  "images": [
+    "https://images.samsung.com/is/image/samsung/assets/in/smartphones/galaxy-s24-ultra/buy/S24Ultra-Color-Titanium_Grey_PC_0527_final.jpg?imbypass=true",
+    "https://images.samsung.com/is/image/samsung/assets/in/smartphones/galaxy-s24-ultra/buy/S24Ultra-Color-Titanium_Black_PC_0527_final.jpg?imbypass=true",
+    "https://images.samsung.com/is/image/samsung/assets/in/smartphones/galaxy-s24-ultra/buy/S24Ultra-Color-Titanium_Violet_PC_0527_final.jpg?imbypass=true",
+    "https://images.samsung.com/is/image/samsung/assets/in/smartphones/galaxy-s24-ultra/buy/desk.png?imbypass=true",
+    "https://images.samsung.com/is/image/samsung/assets/in/smartphones/galaxy-s24-ultra/buy/S24Ultra-Color-Titanium_Orange_PC_0527_final.jpg?imbypass=true",
+    "https://images.samsung.com/is/image/samsung/assets/in/smartphones/galaxy-s24-ultra/buy/S24Ultra-Color-Titanium_Green_PC_0527_final.jpg?imbypass=true",
+    "https://images.samsung.com/is/image/samsung/assets/in/smartphones/galaxy-s24-ultra/buy/S24Ultra-Color-Titanium_Blue_PC_0527_final.jpg?imbypass=true"
+  ]
+}, {
+  "type": "phone",
+  "model": "samsunggalaxys24ultra1tb",
+  "name": "Samsung Galaxy S24 Ultra",
+  "realPrice": "139999",
+  "sdesc": "Samsung Galaxy S24 Ultra 5G AI Smartphone (12GB, 1TB Storage)",
   "desc": "{iframe:https://www.gsmarena.com/samsung_galaxy_s24_ultra-12771.php}",
   "rating": [
     {
