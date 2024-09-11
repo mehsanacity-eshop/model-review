@@ -1,19 +1,28 @@
 [
   {
-    "type": "phone",
-    "model": "galaxys24ultra",
-    "name": "Samsung Galaxy S24 Ultra",
-    "realPrice": "144999",
-    "desc": "Meet Galaxy S24 Ultra, the ultimate form of Galaxy Ultra with a new titanium exterior and a 17.25cm (6.8\") flat display...",
-    "rating": {
-      "name": "Customers say",
-      "rating": 4.5,
-      "review": "Customers like the features and quality of the cellular phone..."
-    },
-    "images": [
-      "https://m.media-amazon.com/images/I/81vxWpPpgNL._SX679_.jpg"
-    ]
-  },
+  "type": "phone",
+  "model": "samsunggalaxys24ultra256gb",
+  "name": "Samsung Galaxy S24 Ultra",
+  "realPrice": "139999",
+  "sdesc": "Samsung Galaxy S24 Ultra 5G AI Smartphone (Titanium Gray, 12GB, 256GB Storage)",
+  "desc": "Network\tTechnology\t\nGSM / CDMA / HSPA / EVDO / LTE / 5G\nLaunch\tAnnounced\t2024, January 17\nStatus\tAvailable. Released 2024, January 24\nBody\tDimensions\t162.3 x 79 x 8.6 mm (6.39 x 3.11 x 0.34 in)\nWeight\t232 g or 233 g (8.18 oz)\nBuild\tGlass front (Corning Gorilla Armor), glass back (Corning Gorilla Armor), titanium frame (grade 2)\nSIM\tNano-SIM and eSIM/ Dual eSIM or Dual SIM (2 Nano-SIMs and eSIM, dual stand-by)\n \tIP68 dust/water resistant (up to 1.5m for 30 min)\nStylus (Bluetooth integration, accelerometer, gyro)\nDisplay\tType\tDynamic LTPO AMOLED 2X, 120Hz, HDR10+, 2600 nits (peak)\nSize\t6.8 inches, 113.5 cm2 (~88.5% screen-to-body ratio)\nResolution\t1440 x 3120 pixels, 19.5:9 ratio (~505 ppi density)\nProtection\tCorning Gorilla Armor\n \tAlways-on display\nPlatform\tOS\tAndroid 14, up to 7 major Android upgrades, One UI 6.1.1\nChipset\tQualcomm SM8650-AC Snapdragon 8 Gen 3 (4 nm)\nCPU\t8-core (1x3.39GHz Cortex-X4 & 3x3.1GHz Cortex-A720 & 2x2.9GHz Cortex-A720 & 2x2.2GHz Cortex-A520)\nGPU\tAdreno 750 (1 GHz)\nMemory\tCard slot\tNo\nInternal\t256GB 12GB RAM, 512GB 12GB RAM, 1TB 12GB RAM\n \tUFS 4.0\nMain Camera\tQuad\t200 MP, f/1.7, 24mm (wide), 1/1.3\", 0.6µm, multi-directional PDAF, OIS\n10 MP, f/2.4, 67mm (telephoto), 1/3.52\", 1.12µm, PDAF, OIS, 3x optical zoom\n50 MP, f/3.4, 111mm (periscope telephoto), 1/2.52\", 0.7µm, PDAF, OIS, 5x optical zoom\n12 MP, f/2.2, 13mm, 120˚ (ultrawide), 1/2.55\", 1.4µm, dual pixel PDAF, Super Steady video\nFeatures\tLaser AF, LED flash, auto-HDR, panorama\nVideo\t8K@24/30fps, 4K@30/60/120fps, 1080p@30/60/240fps, HDR10+, stereo sound rec., gyro-EIS\nSelfie camera\tSingle\t12 MP, f/2.2, 26mm (wide), dual pixel PDAF\nFeatures\tDual video call, Auto-HDR, HDR10+\nVideo\t4K@30/60fps, 1080p@30fps\nSound\tLoudspeaker\tYes, with stereo speakers\n3.5mm jack\tNo\n \t32-bit/384kHz audio\nTuned by AKG\nComms\tWLAN\tWi-Fi 802.11 a/b/g/n/ac/6e/7, tri-band, Wi-Fi Direct\nBluetooth\t5.3, A2DP, LE\nPositioning\tGPS, GLONASS, BDS, GALILEO, QZSS\nNFC\tYes\nRadio\tNo\nUSB\tUSB Type-C 3.2, DisplayPort 1.2, OTG\nFeatures\tSensors\tFingerprint (under display, ultrasonic), accelerometer, gyro, proximity, compass, barometer\n \tSamsung DeX, Samsung Wireless DeX (desktop experience support)\nUltra Wideband (UWB) support\nCircle to Search\nBattery\tType\tLi-Ion 5000 mAh, non-removable\nCharging\t45W wired, PD3.0, 65% in 30 min (advertised)\n15W wireless (Qi/PMA)\n4.5W reverse wireless\nMisc\tColors\tTitanium Black, Titanium Gray, Titanium Violet, Titanium Yellow, Titanium Blue, Titanium Green, Titanium Orange\nModels\tSM-S928B, SM-S928B/DS, SM-S928U, SM-S928U1, SM-S928W, SM-S928N, SM-S9280, SM-S928E, SM-S928E/DS\nSAR\t1.26 W/kg (head)     0.62 W/kg (body)    \nSAR EU\t1.06 W/kg (head)     1.30 W/kg (body)    ",
+  "rating": [
+    {
+      "name": "Gobal Review",
+      "star": 4.5,
+      "review": "Rating And Review Are Consider for Google maybe its not close to actual product"
+    }
+  ],
+  "images": [
+    "https://images.samsung.com/is/image/samsung/assets/in/smartphones/galaxy-s24-ultra/buy/S24Ultra-Color-Titanium_Grey_PC_0527_final.jpg?imbypass=true",
+    "https://images.samsung.com/is/image/samsung/assets/in/smartphones/galaxy-s24-ultra/buy/S24Ultra-Color-Titanium_Black_PC_0527_final.jpg?imbypass=true",
+    "https://images.samsung.com/is/image/samsung/assets/in/smartphones/galaxy-s24-ultra/buy/S24Ultra-Color-Titanium_Violet_PC_0527_final.jpg?imbypass=true",
+    "https://images.samsung.com/is/image/samsung/assets/in/smartphones/galaxy-s24-ultra/buy/desk.png?imbypass=true",
+    "https://images.samsung.com/is/image/samsung/assets/in/smartphones/galaxy-s24-ultra/buy/S24Ultra-Color-Titanium_Orange_PC_0527_final.jpg?imbypass=true",
+    "https://images.samsung.com/is/image/samsung/assets/in/smartphones/galaxy-s24-ultra/buy/S24Ultra-Color-Titanium_Green_PC_0527_final.jpg?imbypass=true",
+    "https://images.samsung.com/is/image/samsung/assets/in/smartphones/galaxy-s24-ultra/buy/S24Ultra-Color-Titanium_Blue_PC_0527_final.jpg?imbypass=true"
+  ]
+}},
   {
     "type": "phone",
     "model": "galaxys24plus",
