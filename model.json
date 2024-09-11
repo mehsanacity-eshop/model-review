@@ -5,12 +5,12 @@
   "name": "Samsung Galaxy S24 Ultra",
   "realPrice": "139999",
   "sdesc": "Samsung Galaxy S24 Ultra 5G AI Smartphone (Titanium Gray, 12GB, 256GB Storage)",
-  "desc": "Network: Technology: GSM / CDMA / HSPA / EVDO / LTE / 5G\nLaunch: Announced: 2024, January 17\nStatus: Available, Released 2024, January 24\nBody: Dimensions: 162.3 x 79 x 8.6 mm (6.39 x 3.11 x 0.34 in)\nWeight: 232 g or 233 g (8.18 oz)\nBuild: Glass front (Corning Gorilla Armor), glass back (Corning Gorilla Armor), titanium frame (grade 2)\nSIM: Nano-SIM and eSIM / Dual eSIM or Dual SIM (2 Nano-SIMs and eSIM, dual stand-by)\nIP68 dust/water resistant (up to 1.5m for 30 min)\nStylus (Bluetooth integration, accelerometer, gyro)\nDisplay: Type: Dynamic LTPO AMOLED 2X, 120Hz, HDR10+, 2600 nits (peak)\nSize: 6.8 inches, 113.5 cm2 (~88.5% screen-to-body ratio)\nResolution: 1440 x 3120 pixels, 19.5:9 ratio (~505 ppi density)\nProtection: Corning Gorilla Armor\nAlways-on display\nPlatform: OS: Android 14, up to 7 major Android upgrades, One UI 6.1.1\nChipset: Qualcomm SM8650-AC Snapdragon 8 Gen 3 (4 nm)\nCPU: 8-core (1x3.39GHz Cortex-X4 & 3x3.1GHz Cortex-A720 & 2x2.9GHz Cortex-A720 & 2x2.2GHz Cortex-A520)\nGPU: Adreno 750 (1 GHz)\nMemory: Card slot: No\nInternal: 256GB 12GB RAM, 512GB 12GB RAM, 1TB 12GB RAM\nUFS 4.0\nMain Camera: Quad: 200 MP, f/1.7, 24mm (wide), 1/1.3\", 0.6µm, multi-directional PDAF, OIS\n10 MP, f/2.4, 67mm (telephoto), 1/3.52\", 1.12µm, PDAF, OIS, 3x optical zoom\n50 MP, f/3.4, 111mm (periscope telephoto), 1/2.52\", 0.7µm, PDAF, OIS, 5x optical zoom\n12 MP, f/2.2, 13mm, 120˚ (ultrawide), 1/2.55\", 1.4µm, dual pixel PDAF, Super Steady video\nFeatures: Laser AF, LED flash, auto-HDR, panorama\nVideo: 8K@24/30fps, 4K@30/60/120fps, 1080p@30/60/240fps, HDR10+, stereo sound rec., gyro-EIS\nSelfie camera: Single: 12 MP, f/2.2, 26mm (wide), dual pixel PDAF\nFeatures: Dual video call, Auto-HDR, HDR10+\nVideo: 4K@30/60fps, 1080p@30fps\nSound: Loudspeaker: Yes, with stereo speakers\n3.5mm jack: No\n32-bit/384kHz audio\nTuned by AKG\nComms: WLAN: Wi-Fi 802.11 a/b/g/n/ac/6e/7, tri-band, Wi-Fi Direct\nBluetooth: 5.3, A2DP, LE\nPositioning: GPS, GLONASS, BDS, GALILEO, QZSS\nNFC: Yes\nRadio: No\nUSB: USB Type-C 3.2, DisplayPort 1.2, OTG\nFeatures: Sensors: Fingerprint (under display, ultrasonic), accelerometer, gyro, proximity, compass, barometer\nSamsung DeX, Samsung Wireless DeX (desktop experience support)\nUltra Wideband (UWB) support\nBattery: Type: Li-Ion 5000 mAh, non-removable\nCharging: 45W wired, PD3.0, 65% in 30 min (advertised)\n15W wireless (Qi/PMA)\n4.5W reverse wireless\nMisc: Colors: Titanium Black, Titanium Gray, Titanium Violet, Titanium Yellow, Titanium Blue, Titanium Green, Titanium Orange\nModels: SM-S928B, SM-S928B/DS, SM-S928U, SM-S928U1, SM-S928W, SM-S928N, SM-S9280, SM-S928E, SM-S928E/DS\nSAR: 1.26 W/kg (head), 0.62 W/kg (body)\nSAR EU: 1.06 W/kg (head), 1.30 W/kg (body)",
+  "desc": "{iframe:https://www.gsmarena.com/samsung_galaxy_s24_ultra-12771.php}",
   "rating": [
     {
-      "name": "Global Review",
+      "name": "Gobal Review",
       "star": 4.5,
-      "review": "Rating and review are considered for Google, maybe it's not close to the actual product."
+      "review": "Rating And Review Are Consider for Google maybe its not close to actual product"
     }
   ],
   "images": [
@@ -22,7 +22,7 @@
     "https://images.samsung.com/is/image/samsung/assets/in/smartphones/galaxy-s24-ultra/buy/S24Ultra-Color-Titanium_Green_PC_0527_final.jpg?imbypass=true",
     "https://images.samsung.com/is/image/samsung/assets/in/smartphones/galaxy-s24-ultra/buy/S24Ultra-Color-Titanium_Blue_PC_0527_final.jpg?imbypass=true"
   ]
-  },
+},
   {
     "type": "phone",
     "model": "galaxys24plus",
