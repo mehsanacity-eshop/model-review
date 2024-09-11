@@ -51,8 +51,12 @@
                 <input type="text" class="form-control" id="realPrice" placeholder="Enter real price">
             </div>
             <div class="mb-3">
-                <label for="desc" class="form-label">Description</label>
-                <textarea class="form-control" id="desc" rows="5" placeholder="Enter description"></textarea>
+                <label for="desc" class="form-label">Short Description</label>
+                <textarea class="form-control" id="sdesc" rows="5" placeholder="Enter Short description"></textarea>
+            </div>
+            <div class="mb-3">
+                <label for="desc" class="form-label">Long Description</label>
+                <textarea class="form-control" id="desc" rows="5" placeholder="Enter Long description"></textarea>
             </div>
             <div id="ratingContainer">
                 <!-- Rating fields will be dynamically added here -->
@@ -117,6 +121,7 @@
             const model = document.getElementById('model').value;
             const name = document.getElementById('name').value;
             const realPrice = document.getElementById('realPrice').value;
+            const sdesc = document.getElementById('sdesc').value;
             const desc = document.getElementById('desc').value;
             const images = document.getElementById('images').value.split(',').map(url => url.trim());
             const ratings = [];
@@ -138,6 +143,7 @@
                 model: model,
                 name: name,
                 realPrice: realPrice,
+                sdesc: sdesc,
                 desc: desc,
                 rating: ratings,
                 images: images
