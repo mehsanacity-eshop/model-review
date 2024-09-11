@@ -58,6 +58,10 @@
                 <label for="desc" class="form-label">Long Description</label>
                 <textarea class="form-control" id="desc" rows="5" placeholder="Enter Long description"></textarea>
             </div>
+            <div class="mb-3">
+                <label for="cdesc" class="form-label">Iframe (URL) Description</label>
+                <input type="checkbox" class="form-control" id="cdesc" onclick="myIframe()" placeholder="Enter URL">
+            </div>
             <div id="ratingContainer">
                 <!-- Rating fields will be dynamically added here -->
             </div>
@@ -77,6 +81,18 @@
     <!-- Bootstrap JS Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
     <script>
+        function myIframe() {
+  // Get the checkbox
+  var checkBox = document.getElementById("cdesc");
+  // Get the output text
+  var text = document.getElementById("desc");
+  // If the checkbox is checked, display the output text
+  if (checkBox.checked == true){
+    text.value = `{iframe:${text.value}}`;
+  } else {
+    text.value = "";
+  }
+}
         let ratingCount = 0;
         function addRating() {
             ratingCount++;
