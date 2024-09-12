@@ -14,6 +14,24 @@
             cursor: pointer;
             color: red;
         }
+          .tag {
+            display: inline-block;
+            padding: 5px 10px;
+            margin: 2px;
+            background-color: #0dcaf0;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .tag:hover {
+            background-color: #0b98d4;
+        }
+        #tags-container {
+            margin-top: 10px;
+        }
+        .input-group {
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
@@ -47,8 +65,26 @@
                 <input type="text" class="form-control" id="name" placeholder="Enter name">
             </div>
             <div class="mb-3">
+                <label for="brand" class="form-label">Brand Name</label>
+                <input type="text" class="form-control" id="brand" placeholder="Enter Brand name">
+            </div>
+            <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <div class="mb-3">
+                <label for="tag-input" class="form-label">Enter Tag:</label>
+                <input type="text" id="tag-input" class="form-control" placeholder="Enter tags and press Enter" />
+            </div>
+            <div id="tags-container" class="border p-2 rounded bg-light"></div>
+            
+            <div class="input-group mt-3">
+                <span class="input-group-text">Tags Output</span>
+                <input type="text" id="input-color" class="form-control" readonly />
+            </div>
+        </div>
+    </div>
+            <div class="mb-3">
                 <label for="realPrice" class="form-label">Real Price</label>
-                <input type="text" class="form-control" id="realPrice" placeholder="Enter real price">
+                <input type="number" class="form-control" id="realPrice" placeholder="Enter real price">
             </div>
             <div class="mb-3">
                 <label for="desc" class="form-label">Short Description</label>
@@ -81,6 +117,47 @@
     <!-- Bootstrap JS Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
     <script>
+         document.addEventListener("DOMContentLoaded", function () {
+            const tagInput = document.getElementById("tag-input");
+            const tagsContainer = document.getElementById("tags-container");
+            const outputInput = document.getElementById("input-color");
+            let tags = [];
+            // Add event listener for tag input
+            tagInput.addEventListener("keydown", function (event) {
+                if (event.key === "Enter") {
+                    event.preventDefault();
+                    const newTag = tagInput.value.trim();
+                    if (newTag && !tags.includes(newTag)) {
+                        tags.push(newTag);
+                        tagInput.value = "";
+                        updateTagsDisplay();
+                    }
+                }
+            });
+            // Update the tags display and the output input field
+            function updateTagsDisplay() {
+                tagsContainer.innerHTML = ""; 
+                // Add each tag as a span
+                tags.forEach((tag, index) => {
+                    const tagElement = document.createElement("span");
+                    tagElement.className = "tag";
+                    tagElement.textContent = tag;
+                    // Add click event to remove the tag
+                    tagElement.addEventListener("click", () => {
+                        removeTag(index);
+                    });
+                    tagsContainer.appendChild(tagElement);
+                });
+                // Set the output input value
+                outputInput.value = tags.length > 0 ? tags.map(tag => `${tag}`).join(";") : "";
+            }
+            // Remove a tag from the array
+            function removeTag(index) {
+                tags.splice(index, 1);
+                updateTagsDisplay();
+            }
+        });
+        
         function myIframe() {
   // Get the checkbox
   var checkBox = document.getElementById("cdesc");
@@ -136,6 +213,8 @@
             const type = document.getElementById('type').value;
             const model = document.getElementById('model').value;
             const name = document.getElementById('name').value;
+            const brand = document.getElementById('brand').value;
+            const color = document.getElementById('input-color').value;
             const realPrice = document.getElementById('realPrice').value;
             const sdesc = document.getElementById('sdesc').value;
             const desc = document.getElementById('desc').value;
@@ -158,6 +237,8 @@
                 type: type,
                 model: model,
                 name: name,
+                brand: brand,
+                color: color,
                 realPrice: realPrice,
                 sdesc: sdesc,
                 desc: desc,
